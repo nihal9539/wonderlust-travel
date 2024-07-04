@@ -1,0 +1,66 @@
+
+.book {
+    background: #f9f9f9;
+    padding: 50px;
+  }
+  
+  .main-text h1 {
+    text-align: center;
+    /* box-shadow: 0px 1px 1px black; */
+    font-weight: 600;
+  }
+  
+ 
+  
+.book .row {
+    margin-top: 30px;
+  }
+  
+  .book form input {
+    padding: 10px;
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+  }
+  
+  .book form textarea {
+    padding: 10px;
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+  }
+  
+  .submit {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 550;
+    background: #0582ca !important;
+    border: 0 !important;
+    color: white;
+    margin-top: 10px;
+    height: 2.5rem;
+    /* transition: width 5s; */
+  }
+  
+  .submit:hover {
+    width: 170px;
+    transition: width 0.5s;
+  
+  }
+  
+  @media (max-width:765px) {
+    .book {
+        padding: 0;
+    }
+  
+    .main-text h1 {
+        margin-top: 20px;
+    }
+  }
+  

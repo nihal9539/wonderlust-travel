@@ -1,0 +1,23 @@
+
+.footer-links {
+  text-align: left;
+}
+
+.footer-links h5 {
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.footer-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin: 5px 0;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: inherit;
+}
