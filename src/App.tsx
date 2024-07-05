@@ -1,5 +1,3 @@
-import { useState } from 'react'
-
 import './App.css'
 import Home from './Components/Home/Home'
 import BookSection from './Components/BookSection/BookSection'

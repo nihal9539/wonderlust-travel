@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState ,ChangeEvent, FormEvent} from 'react';
 import { Container, Row, Col, Card, Form, Button } from 'react-bootstrap';
 import "./BookSection.css"
 
@@ -18,7 +18,7 @@ const BookSection:React.FC = () => {
     nameAddress: ''
   });
 
-  const handleChange = (e) => {
+  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setFormData({
       ...formData,
@@ -26,7 +26,7 @@ const BookSection:React.FC = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log(formData);
   };
